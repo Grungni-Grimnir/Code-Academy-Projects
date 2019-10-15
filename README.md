@@ -32,6 +32,7 @@ Premium Ground Shipping
 
 Flat charge: $125.00
 
+
 Write a program that asks the user for the weight of their package and then tells them which method of shipping is cheapest and how much it will cost to ship their package using Sal’s Shippers.
 
 
@@ -69,3 +70,49 @@ How much it would cost to ship a package of said weight using this method.
 What is the cheapest method of shipping a 4.8 pound package and how much would it cost?
 
 What is the cheapest method of shipping a 41.5 pound package and how much would it cost?
+
+
+
+
+-PYTHON GRADEBOOK-
+
+You are a student and you are trying to organize your subjects and grades using Python. Let’s explore what we’ve learned about lists to organize your subjects and scores.
+
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
+
+Tasks
+0/7Complete
+Mark the tasks as complete by checking them off 
+Create Some Lists:
+
+1. Create a list called subjects and fill it with the classes you are taking:
+
+"physics"
+"calculus"
+"poetry"
+"history"
+
+2. Create a list called grades and fill it with your scores:
+
+98
+97
+85
+88
+
+3.Use the zip() function to combine subjects and grades.
+
+Save this zip object as a list into a variable called gradebook.
+
+4. Print gradebook.
+
+
+Add More Subjects:
+5. Your grade for Computer Science class just came in! You got a perfect score, 100!
+
+After your definitions of subjects and grades but before you create gradebook, use append to add "computer science" to subjects and 100 to grades.
+
+6. Your grade for visual arts just came in! You got a 93!
+
+After the creation of gradebook (but before you print it out), use append to add ("visual arts", 93) to gradebook.
+
+7. You also have your grades from last semester, stored in last_semester_gradebook. Create a new variable full_gradebook with the items from both gradebook and last_semester_gradebook.
